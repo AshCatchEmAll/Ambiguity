@@ -10,7 +10,7 @@
 
 # Table of Content:
 
-- [Display Shots](#display-shots)
+- [Process](#process)
 - [Running the project](#running-the-project)
 - [Stack in use](#stack-in-use)
 - [Future scope](#future-scope)
@@ -18,43 +18,39 @@
 
 
 
-## Display Shots
+## Process
 
-<pre><div align="center"><img src ="s1.png" margin-left="10px" width="200" height="350">          <img src ="s2.png"  margin-left="10px" width="200" height="350">          <img src ="s3.png" width="200" height="350"></div></pre>
+<pre>
+<div align="center">
+<img src ="s1.jpg" width="600" height="350"></br><img src ="s2.jpg"  width="600" height="350">
+</div>
+</pre>
 
 
 
 ## Running the project
-- Clone the project
-- Open the project is VS code (or your favorite editor)
-- Add your ip address in stories_repo file line 8 (Flutter)
-- Create a google cloud account and enable google maps
-- Add the google maps api in android manifest
-- Make a firebase account and generate the service json file
-- Replace key in firestore/key.json file with your json file (Node.js)
-- Run npm install for node.js
-- run flutter pub get for Flutter
-- Locate the VS Code status bar (the blue bar at the bottom of the window):
-- Select a device from the Device Selector area
-- Invoke Run > Start Debugging or press f5
-- Wait for the app to launch — progress is printed in the Debug Console view.
-
-
+This project is probably the easiest to run. Yay for the judges ! Simple head over to the following repl
+```
+https://replit.com/@GottaCatchEmAll/Ambiguity-or-Mountain-Madness-2022
+```
+Now follow these steps 
+- Press "Run"
+- When prompted in the console , type RUN("m.amb")
+- RUN will execute the m.amb file which includes code written in ambiguity language (extension is amb for ambiguity, get it?). You can play around write more statements and have fun 😉
 
 
 ## Stack in use
-- Fontend : Frontend is setup using flutter and programmed in a way that it can be ran on desktop , web and android/ios !
-- Node.js : All the calls to database go through node.js server where the user and data is validated before forwarding it to the database.
-- Database : We are using Firestore as a database
+- Python : Using an interpreted language to create a interpreted language , talk about meta.
 
 
 
 ## Future scope
-- Email verify all users before they can submit any information for approval 
-- Add Firebase cloud messaging (Push notification) so that users get notified whenever their information is approved
-- Add award system so that users get an incentive for using the app 
-- Feature to post pdf of research papers, any interviews they did or any images as information
-- Use All markers as a community feature where others can comment on an information submitted by a user and make a thread and so on
+- [x] Add return statement support for functions 
+- [x] Add comments support
+- [ ] Add ++ and - operators
+- [ ] Add class and inheritance support
+- [ ] Add better error handling
+- [ ] Make a UI so that users can write code in Ambiguity
 
 
 ## Demo video
