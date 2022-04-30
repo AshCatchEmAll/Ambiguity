@@ -39,6 +39,10 @@ Now follow these steps
 - RUN will execute the m.amb file which includes code written in ambiguity language (extension is amb for ambiguity, get it?). You can play around write more statements and have fun 😉
 
 
+Or if you are feeling fancy you can download the zip folder and run the code locally.
+
+
+
 ## Stack in use
 - Python : Using an interpreted language to create a interpreted language , talk about meta.
 
