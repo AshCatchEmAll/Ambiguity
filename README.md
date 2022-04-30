@@ -1,5 +1,5 @@
 <div align="center"><h1>Ambiguity</h1></div>
-<div align="center"><h3>The most ambiguous</h3></div>
+<div align="center"><h3>The most ambiguous language</h3></div>
 <div align="center"><img src ="logo.png" width=300 height=300 style="vertical-align:middle"></div>
 
 
